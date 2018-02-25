@@ -69,7 +69,7 @@ class Camdram extends AbstractProvider
     
     public function getAuthorisedOrganisations(AccessToken $token)
     {
-        return $this->getAuthenticatedData('/auth/account/organisation.json', $token);
+        return $this->getAuthenticatedData('/auth/account/organisations.json', $token);
     }
     
     /**
