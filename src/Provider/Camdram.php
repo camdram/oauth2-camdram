@@ -62,6 +62,16 @@ class Camdram extends AbstractProvider
         return $data;
     }
     
+    public function getAuthorisedShows(AccessToken $token)
+    {
+        return $this->getAuthenticatedData('/auth/account/shows.json', $token);
+    }
+    
+    public function getAuthorisedOrganisations(AccessToken $token)
+    {
+        return $this->getAuthenticatedData('/auth/account/organisation.json', $token);
+    }
+    
     /**
      * Get the default scopes used by this provider.
      *
