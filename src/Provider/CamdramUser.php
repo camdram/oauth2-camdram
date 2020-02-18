@@ -1,5 +1,5 @@
 <?php
-namespace Acts\Camdram\Oauth2\Provider;
+namespace Acts\Camdram\OAuth2\Provider;
 
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 use League\OAuth2\Client\Tool\ArrayAccessorTrait;

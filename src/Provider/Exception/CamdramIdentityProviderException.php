@@ -1,5 +1,5 @@
 <?php
-namespace Acts\Camdram\Oauth2\Provider\Exception;
+namespace Acts\Camdram\OAuth2\Provider\Exception;
 
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use Psr\Http\Message\ResponseInterface;
